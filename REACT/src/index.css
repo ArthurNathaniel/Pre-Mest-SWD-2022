@@ -1,0 +1,62 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(11, 4, 31);
+  /* background-image: url(./logo.svg);
+  background-size:cover;
+  background-clip: border-box; */
+  color: #fff;
+  font-family: "Montserrat";
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(25, 19, 19, 0.719);
+  height: 80px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.nav-logo {
+  width: 40px;
+  display: flex;
+  color: aqua;
+  margin-left: 30px;
+}
+.nav-logo img{
+  width: 30px;
+}
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items > li {
+  margin-right: 30px;
+}
+
+.title{
+  font-weight: bolder;
+  margin-left: 20px;
+  margin-top: 70px;
+  font-size: 70px;
+}
+.list{
+  margin-left: 50px;
+  line-height: 70px;
+  list-style: none;
+  font-size: 30px;
+  margin-top: 30px;
+}
+ul li::before{
+  content: "\2022";
+  font-weight: bolder;
+  color: aqua;
+  width: 1em;
+  display: inline-block;
+  margin-left: -1em;
+  /* background-color: red; */
+}
